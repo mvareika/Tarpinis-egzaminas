@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Lato;
+  text-decoration: none;
+  
+}
+header{
+  background: #f8f9fa;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+  nav{
+  padding: 10px;
+  display: flex;
+  justify-content:space-around;
+  gap: 850px;
+  height:70px;
+  box-shadow: 2px 2px rgba(0, 0, 0, 0.116);
+
+  h1{
+    font-size:25px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+  }
+}
+
+}
+button{
+  background:rgba(0,123,255,255);
+  width:5%;
+  border-radius: 7px 7px 7px 7px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  align-items:center;
+  cursor: pointer;
+  
+}
+//Section1
+.image-water{
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 850px;
+  z-index: -1;
+  filter: brightness(80%);
+}
+
+.p-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+  p{
+    position: relative;
+    text-align: center;
+    width: 1000px;
+    top: -100px;
+    margin: auto;
+    font-size: 60px;
+    font-weight: 1000;
+    color: white;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.281);
+  }
+}
+
+  input[type=text], select {
+    width: 32%;
+    padding: 10px 25px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 30px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 55%;
+    left: 30%;
+}
+input[type=submit], select{
+  position: absolute;
+  top: 55.5%;
+  left: 62.8%;
+  padding: 12px;
+  width: 10%;
+  color: white;
+  font-size: 30px;
+  border-radius: 8px;
+  background:rgba(0,123,255,255);
+  border: none;
+  cursor: pointer;
+}
+// Section 1 end
+
+// Section 2
+
+.logo{
+  height: 550px;
+  width: 100%;
+  gap: 0;
+  margin: 0;
+  padding: 200px;
+  display: flex;
+  align-items: end;
+  background: #f8f9fa;
+  border: none;
+
+  .monitor{
+    position: relative;
+    top: -130px;
+    left: 245px;
+    width: 100px;
+  }
+
+  .sheets{
+    position: relative;
+    top: -130px;
+    left: 245px;
+    width: 100px;
+  }
+  .checkmark{
+    position: relative;
+    top: -130px;
+    left: 245px;
+    width: 100px;
+  }
+
+  h1{
+    font-size: 34px;
+    font-weight: 600;
+    text-align: center;
+    width: 60%;
+  }
+  
+// po fully responsive textas
+ p{
+  display: block;
+  font-size: 25px;
+  font-weight: 300;
+  text-shadow: 1px 1px rgba(0, 0, 0, 0.11);
+  width: 400px;
+  margin: 0;
+  justify-content: center;
+  position: relative;
+  left: -5px;
+  top: 20px;
+  color: #6e7f91;
+ }
+}
+//section 3 with "checkboard"
+.window{
+  width: 908px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+
+}
+
+.left{
+  display: flex;
+  float: left;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background:#ffffff;
+
+
+   p{
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 25px;
+    line-height:38px;
+    font-weight: 300;
+    color:#6e7f91;
+  }
+    h1{
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      font-size: 40px;
+      width: 100%;
+      
+    
+    }
+    
+  
+  .text-box{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  img{
+    
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+  }
+}
+
+.right{
+  display: flex;
+  float: right;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background:#ffffff;
+
+
+   p{
+    margin-top: 15px;
+    text-align: justify;
+    font-size: 25px;
+    line-height:38px;
+    font-weight: 300;
+    color:#6e7f91;
+  }
+    h1{
+      display: flex;
+      justify-content: left;
+      align-items: center;
+      font-size: 40px;
+      width: 100%;
+      
+    
+    }
+    
+  
+  .text-box{
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+  }
+
+  img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+.top-text{
+  position: absolute;
+  top: 3300px;
+  left:750px;
+  font-size: 30px;
+
+  h1{
+    width: 100%;
+  }
+}
+.textbox-1{
+  width: 100%;
+
+  h1{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+}
+.profiles-box{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: #f8f9fa;
+
+.profiles{
+  width:65%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  
+  
+  
+  p{
+    display: flex;
+    width:300px;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+
+
+    img{
+
+      border-radius: 50%;
+      width: 250px;
+      border: 3px solid white;
+      filter: drop-shadow(5px 5px 3px #6c6c7983);
+    }
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+
+}
+.bottm-water-window{
+  height: 500px;
+}
+
+.bottom-water{
+  width: 100%;
+  height: 450px;
+  filter: brightness(80%);
+}
+
+.form-position{
+  position: relative;
+  top: -250px;
+
+  h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.192);
+  }
+
+  .submit3{
+    position:absolute;
+    top: 32px;
+  }
+}
+footer{
+height: 200px;
+display: flex;
+align-items: center;
+width: 100%;
+
+.bottom-nav{
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  
+  margin-left: 200px;
+  font-size: 15px;
+  padding: 15px;
+  color: #007bff;
+  font-weight: 500;
+
+  p{
+    font-size: 10px;
+    display: flex;
+    color: #007bff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left:10px;
+    margin-right:10px;
+  }
+}
+  
+img{
+  position: relative;
+  left: 600px;
+  width: auto;
+  height: 35px;
+  margin: 20px;
+  filter: invert(31%) sepia(80%) saturate(3365%) hue-rotate(201deg) brightness(104%) contrast(107%);
+  
+}
+
+img:hover{
+  cursor: pointer;
+}
+
+
+.copyright{
+  position: relative;
+  top: 40px;
+  left: -360px;
+  font-size: 12.5px;
+}
+}
+
+@media only screen and (max-width: 320px) {
+  header{
+    width: 100%;
+    
+    font-size: 80px;
+  }
+  .image-water{
+    width: 100%;
+    height: 600px;
+  }
+  p{
+    font-size: 32px;
+    width: 70%;
+  }
+}
